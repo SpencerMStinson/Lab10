@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../../Lab07/Lab07/Lab07.srcs/sources_1/new/add3.sv" \
+"../../../../../../Lab08/Lab_08/Lab_08.srcs/sources_1/new/an_decoder.sv" \
+"../../../../../../Lab07/Lab07/Lab07.srcs/sources_1/new/dd11b.sv" \
+"../../../../../../Lab08/Lab_08/Lab_08.srcs/sources_1/new/mux2.sv" \
+"../../../../../../Lab08/Lab_08/Lab_08.srcs/sources_1/new/mux4.sv" \
+"../../../../../../Lab08/Lab_08/Lab_08.srcs/sources_1/new/sseg4.sv" \
+"../../../../../../Lab06A/Lab06_/Lab06_.srcs/sources_1/new/sseg_decoder.sv" \
+"../../../../../../Lab08/Lab_08/Lab_08.srcs/sources_1/new/sseg4_manual.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

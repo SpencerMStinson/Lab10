@@ -1,0 +1,7 @@
+Running: xsim.dir/sseg4_manual_behav/xsimk.exe -simmode gui -wdb sseg4_manual_behav.wdb -simrunnum 0 -socket 63996
+Design successfully loaded
+Design Loading Memory Usage: 6312 KB (Peak: 6312 KB)
+Design Loading CPU Usage: 93 ms
+Simulation completed
+Simulation Memory Usage: 7020 KB (Peak: 7020 KB)
+Simulation CPU Usage: 109 ms

@@ -1,0 +1,16 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/Lab06_.srcs/sources_1/new/sseg_decoder.sv,1602187850,systemVerilog,,C:/Users/spencer_stinson1/Documents/GitHub/Lab08/Lab_08/Lab_08.srcs/sources_1/new/sseg4_manual.sv,,sseg_decoder,,,,,,,,
+C:/Users/spencer_stinson1/Documents/GitHub/Lab07/Lab07/Lab07.srcs/sources_1/new/add3.sv,1602724709,systemVerilog,,C:/Users/spencer_stinson1/Documents/GitHub/Lab08/Lab_08/Lab_08.srcs/sources_1/new/an_decoder.sv,,add3,,,,,,,,
+C:/Users/spencer_stinson1/Documents/GitHub/Lab07/Lab07/Lab07.srcs/sources_1/new/dd11b.sv,1603163113,systemVerilog,,C:/Users/spencer_stinson1/Documents/GitHub/Lab08/Lab_08/Lab_08.srcs/sources_1/new/mux2.sv,,dd11b,,,,,,,,
+C:/Users/spencer_stinson1/Documents/GitHub/Lab08/Lab_08/Lab_08.srcs/sources_1/new/an_decoder.sv,1602784299,systemVerilog,,C:/Users/spencer_stinson1/Documents/GitHub/Lab07/Lab07/Lab07.srcs/sources_1/new/dd11b.sv,,an_decoder,,,,,,,,
+C:/Users/spencer_stinson1/Documents/GitHub/Lab08/Lab_08/Lab_08.srcs/sources_1/new/mux2.sv,1602780877,systemVerilog,,C:/Users/spencer_stinson1/Documents/GitHub/Lab08/Lab_08/Lab_08.srcs/sources_1/new/mux4.sv,,mux2,,,,,,,,
+C:/Users/spencer_stinson1/Documents/GitHub/Lab08/Lab_08/Lab_08.srcs/sources_1/new/mux4.sv,1602782247,systemVerilog,,C:/Users/spencer_stinson1/Documents/GitHub/Lab08/Lab_08/Lab_08.srcs/sources_1/new/sseg4.sv,,mux4,,,,,,,,
+C:/Users/spencer_stinson1/Documents/GitHub/Lab08/Lab_08/Lab_08.srcs/sources_1/new/sseg4.sv,1603312896,systemVerilog,,C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/Lab06_.srcs/sources_1/new/sseg_decoder.sv,,sseg4,,,,,,,,
+C:/Users/spencer_stinson1/Documents/GitHub/Lab08/Lab_08/Lab_08.srcs/sources_1/new/sseg4_manual.sv,1603309485,systemVerilog,,,,sseg4_manual,,,,,,,,
+C:/Users/spencer_stinson1/Documents/GitHub/Lab09/Lab_09/Lab_09.srcs/sources_1/new/register.sv,1603383876,systemVerilog,,C:/Users/spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.srcs/sim_1/new/Ncount_testbench.sv,,register,,,,,,,,
+C:/Users/spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.srcs/sim_1/new/Ncount_testbench.sv,1603993214,systemVerilog,,,,Ncount_testbench,,,,,,,,
+C:/Users/spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.srcs/sources_1/new/Ncount.sv,1603991906,systemVerilog,,C:/Users/spencer_stinson1/Documents/GitHub/Lab09/Lab_09/Lab_09.srcs/sources_1/new/register.sv,,Ncount,,,,,,,,
