@@ -25,4 +25,14 @@ module show2c(
     output [15:0] Dout,
     output sign
     );
+    
+    always @*
+    if (Din[7])
+    
+    
+    
+    
+    
+    assign sign = Din[7];
+    
 endmodule
