@@ -22,16 +22,18 @@
 
 module show2c(
     input [7:0] Din,
-    output [15:0] Dout,
+    output reg [15:0] Dout,
     output sign
     );
+    reg [7:0] addout;
+     assign addout = ~Din + 8'b00000001;
     
     always @*
-    if (Din[7])
     
-    
-    
-    
+    if (Din[7]) 
+        Dout <= {8'hFF, addout};
+    else 
+        Dout <= {8'b00, Din};
     
     assign sign = Din[7];
     
