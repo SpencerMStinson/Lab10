@@ -17,17 +17,16 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 15988
+INFO: [Synth 8-7075] Helper process launched with PID 18656
 WARNING: [Synth 8-2507] parameter declaration becomes local in alu with formal parameter declaration list [C:/Users/spencer_stinson1/Documents/GitHub/Lab09/Lab_09/Lab_09.srcs/sources_1/new/alu.sv:30]
 WARNING: [Synth 8-2507] parameter declaration becomes local in alu with formal parameter declaration list [C:/Users/spencer_stinson1/Documents/GitHub/Lab09/Lab_09/Lab_09.srcs/sources_1/new/alu.sv:31]
 WARNING: [Synth 8-2507] parameter declaration becomes local in alu with formal parameter declaration list [C:/Users/spencer_stinson1/Documents/GitHub/Lab09/Lab_09/Lab_09.srcs/sources_1/new/alu.sv:32]
 WARNING: [Synth 8-2507] parameter declaration becomes local in alu with formal parameter declaration list [C:/Users/spencer_stinson1/Documents/GitHub/Lab09/Lab_09/Lab_09.srcs/sources_1/new/alu.sv:33]
 WARNING: [Synth 8-2507] parameter declaration becomes local in alu with formal parameter declaration list [C:/Users/spencer_stinson1/Documents/GitHub/Lab09/Lab_09/Lab_09.srcs/sources_1/new/alu.sv:34]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1028.766 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1025.055 ; gain = 0.000
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'calc' [C:/Users/spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.srcs/sources_1/new/calc.sv:23]
-	Parameter N bound to: 8 - type: integer 
 INFO: [Synth 8-6157] synthesizing module 'top_lab9' [C:/Users/spencer_stinson1/Documents/GitHub/Lab09/Lab_09/Lab_09.srcs/sources_1/new/top_lab9.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'register' [C:/Users/spencer_stinson1/Documents/GitHub/Lab09/Lab_09/Lab_09.srcs/sources_1/new/register.sv:23]
 	Parameter N bound to: 8 - type: integer 
@@ -43,7 +42,6 @@ INFO: [Synth 8-6155] done synthesizing module 'alu' (2#1) [C:/Users/spencer_stin
 INFO: [Synth 8-6155] done synthesizing module 'top_lab9' (3#1) [C:/Users/spencer_stinson1/Documents/GitHub/Lab09/Lab_09/Lab_09.srcs/sources_1/new/top_lab9.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'show2c' [C:/Users/spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.srcs/sources_1/new/show2c.sv:23]
 INFO: [Synth 8-6155] done synthesizing module 'show2c' (4#1) [C:/Users/spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.srcs/sources_1/new/show2c.sv:23]
-WARNING: [Synth 8-689] width (16) of port connection 'Din' does not match port width (8) of module 'show2c' [C:/Users/spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.srcs/sources_1/new/calc.sv:53]
 INFO: [Synth 8-6157] synthesizing module 'Ncount' [C:/Users/spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.srcs/sources_1/new/Ncount.sv:23]
 	Parameter N bound to: 20 - type: integer 
 INFO: [Synth 8-6157] synthesizing module 'register__parameterized0' [C:/Users/spencer_stinson1/Documents/GitHub/Lab09/Lab_09/Lab_09.srcs/sources_1/new/register.sv:23]
@@ -70,21 +68,21 @@ INFO: [Synth 8-6157] synthesizing module 'mux2__parameterized0' [C:/Users/spence
 	Parameter BITS bound to: 7 - type: integer 
 INFO: [Synth 8-6155] done synthesizing module 'mux2__parameterized0' (11#1) [C:/Users/spencer_stinson1/Documents/GitHub/Lab08/Lab_08/Lab_08.srcs/sources_1/new/mux2.sv:23]
 INFO: [Synth 8-6155] done synthesizing module 'sseg4' (12#1) [C:/Users/spencer_stinson1/Documents/GitHub/Lab08/Lab_08/Lab_08.srcs/sources_1/new/sseg4.sv:23]
-WARNING: [Synth 8-324] index 15 out of range [C:/Users/spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.srcs/sources_1/new/calc.sv:66]
+WARNING: [Synth 8-324] index 15 out of range [C:/Users/spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.srcs/sources_1/new/calc.sv:65]
 INFO: [Synth 8-6155] done synthesizing module 'calc' (13#1) [C:/Users/spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.srcs/sources_1/new/calc.sv:23]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1028.766 ; gain = 0.000
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1025.055 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1028.766 ; gain = 0.000
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1025.055 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1028.766 ; gain = 0.000
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1025.055 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1028.766 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1025.055 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -95,29 +93,29 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/calc_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1065.801 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1046.914 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1065.801 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1046.914 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1065.801 ; gain = 37.035
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1046.914 ; gain = 21.859
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1065.801 ; gain = 37.035
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1046.914 ; gain = 21.859
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1065.801 ; gain = 37.035
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1046.914 ; gain = 21.859
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1065.801 ; gain = 37.035
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1046.914 ; gain = 21.859
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -133,8 +131,8 @@ Detailed RTL Component Info :
 	               20 Bit    Registers := 1     
 	                8 Bit    Registers := 2     
 +---Muxes : 
-	   2 Input   16 Bit        Muxes := 2     
-	   2 Input    8 Bit        Muxes := 2     
+	   2 Input   16 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 3     
 	   6 Input    8 Bit        Muxes := 1     
 	   2 Input    7 Bit        Muxes := 1     
 	   2 Input    4 Bit        Muxes := 15    
@@ -155,25 +153,25 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1065.801 ; gain = 37.035
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1046.914 ; gain = 21.859
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1065.801 ; gain = 37.035
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1046.914 ; gain = 21.859
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1067.199 ; gain = 38.434
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1049.516 ; gain = 24.461
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1068.016 ; gain = 39.250
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1051.777 ; gain = 26.723
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -191,37 +189,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1073.816 ; gain = 45.051
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1056.551 ; gain = 31.496
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1073.816 ; gain = 45.051
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1056.551 ; gain = 31.496
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1073.816 ; gain = 45.051
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1056.551 ; gain = 31.496
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1073.816 ; gain = 45.051
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1056.551 ; gain = 31.496
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1073.816 ; gain = 45.051
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1056.551 ; gain = 31.496
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1073.816 ; gain = 45.051
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1056.551 ; gain = 31.496
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -240,36 +238,35 @@ Report Cell Usage:
 |1     |BUFG   |     1|
 |2     |CARRY4 |     7|
 |3     |LUT1   |     2|
-|4     |LUT2   |     5|
-|5     |LUT3   |    21|
-|6     |LUT4   |     5|
-|7     |LUT5   |     5|
-|8     |LUT6   |    25|
-|9     |FDCE   |    16|
-|10    |FDRE   |    20|
-|11    |IBUF   |    16|
-|12    |OBUF   |    28|
+|4     |LUT2   |     4|
+|5     |LUT3   |    20|
+|6     |LUT4   |     2|
+|7     |LUT5   |    10|
+|8     |LUT6   |    22|
+|9     |FDCE   |    36|
+|10    |IBUF   |    16|
+|11    |OBUF   |    28|
 +------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1073.816 ; gain = 45.051
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1056.551 ; gain = 31.496
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 1073.816 ; gain = 8.016
-Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1073.816 ; gain = 45.051
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 1056.551 ; gain = 9.637
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1056.551 ; gain = 31.496
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1073.816 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1068.664 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1073.816 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1071.559 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-45 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
+45 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1073.816 ; gain = 45.051
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 1071.559 ; gain = 46.504
 INFO: [Common 17-1381] The checkpoint 'C:/Users/spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.runs/synth_1/calc.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file calc_utilization_synth.rpt -pb calc_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Nov  5 13:28:32 2020...
+INFO: [Common 17-206] Exiting Vivado at Mon Nov  9 21:35:36 2020...

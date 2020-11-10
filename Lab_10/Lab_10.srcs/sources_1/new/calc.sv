@@ -20,8 +20,8 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module calc#(parameter N=8) (
-input btnU,
+module calc(
+    input btnU,
     input btnD,
     input [11:0] sw,
     input clk,
@@ -33,7 +33,6 @@ input btnU,
     );
     
     wire [15:0] ledout;
-    wire [N-1:0] aluout;
     wire [15:0] s1dout;
     wire ssign;
     wire [1:0] msbout;
@@ -47,17 +46,17 @@ input btnU,
    .led(ledout)
   );
   
-  assign led= ledout;
+  assign led = ledout;
   
    show2c s1 (
-    .Din(ledout),
+    .Din(ledout[15:8]),
     .Dout(s1dout),
     .sign(ssign)
    );
    
    Ncount #(.N(20)) N1 (
    .clk(clk),
-   .rst(rst),
+   .rst(btnC),
    .msb(msbout) 
    );
    

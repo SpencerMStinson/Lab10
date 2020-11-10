@@ -38,7 +38,7 @@ module wrapper(
     sseg4 s(
     .data(16'b0111),
     .hex_dec(0),
-    .sign(0),
+    .sign(1),
     .digit_sel(msbs),
     .seg(seg),
     .dp(dp),
