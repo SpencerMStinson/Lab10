@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.runs/synth_1/calc.tcl"
+  variable script "C:/Users/Spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.runs/synth_1/calc.tcl"
   variable category "vivado_synth"
 }
 
@@ -70,37 +70,35 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 2
-set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tcpg236-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir C:/Users/spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.cache/wt [current_project]
-set_property parent.project_path C:/Users/spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/Spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.cache/wt [current_project]
+set_property parent.project_path C:/Users/Spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part digilentinc.com:basys3:part0:1.1 [current_project]
-set_property ip_output_repo c:/Users/spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.cache/ip [current_project]
+set_property ip_output_repo c:/Users/Spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib -sv {
-  C:/Users/spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.srcs/sources_1/new/Ncount.sv
-  C:/Users/spencer_stinson1/Documents/GitHub/Lab07/Lab07/Lab07.srcs/sources_1/new/add3.sv
-  C:/Users/spencer_stinson1/Documents/GitHub/Lab09/Lab_09/Lab_09.srcs/sources_1/new/alu.sv
-  C:/Users/spencer_stinson1/Documents/GitHub/Lab08/Lab_08/Lab_08.srcs/sources_1/new/an_decoder.sv
-  C:/Users/spencer_stinson1/Documents/GitHub/Lab07/Lab07/Lab07.srcs/sources_1/new/dd11b.sv
-  C:/Users/spencer_stinson1/Documents/GitHub/Lab08/Lab_08/Lab_08.srcs/sources_1/new/mux2.sv
-  C:/Users/spencer_stinson1/Documents/GitHub/Lab08/Lab_08/Lab_08.srcs/sources_1/new/mux4.sv
-  C:/Users/spencer_stinson1/Documents/GitHub/Lab09/Lab_09/Lab_09.srcs/sources_1/new/register.sv
-  C:/Users/spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.srcs/sources_1/new/show2c.sv
-  C:/Users/spencer_stinson1/Documents/GitHub/Lab08/Lab_08/Lab_08.srcs/sources_1/new/sseg4.sv
-  C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/Lab06_.srcs/sources_1/new/sseg_decoder.sv
-  C:/Users/spencer_stinson1/Documents/GitHub/Lab09/Lab_09/Lab_09.srcs/sources_1/new/top_lab9.sv
-  C:/Users/spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.srcs/sources_1/new/calc.sv
+  C:/Users/Spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.srcs/sources_1/new/Ncount.sv
+  C:/Users/Spencer_stinson1/Documents/GitHub/Lab07/Lab07/Lab07.srcs/sources_1/new/add3.sv
+  C:/Users/Spencer_stinson1/Documents/GitHub/Lab09/Lab_09/Lab_09.srcs/sources_1/new/alu.sv
+  C:/Users/Spencer_stinson1/Documents/GitHub/Lab08/Lab_08/Lab_08.srcs/sources_1/new/an_decoder.sv
+  C:/Users/Spencer_stinson1/Documents/GitHub/Lab07/Lab07/Lab07.srcs/sources_1/new/dd11b.sv
+  C:/Users/Spencer_stinson1/Documents/GitHub/Lab08/Lab_08/Lab_08.srcs/sources_1/new/mux2.sv
+  C:/Users/Spencer_stinson1/Documents/GitHub/Lab08/Lab_08/Lab_08.srcs/sources_1/new/mux4.sv
+  C:/Users/Spencer_stinson1/Documents/GitHub/Lab09/Lab_09/Lab_09.srcs/sources_1/new/register.sv
+  C:/Users/Spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.srcs/sources_1/new/show2c.sv
+  C:/Users/Spencer_stinson1/Documents/GitHub/Lab08/Lab_08/Lab_08.srcs/sources_1/new/sseg4.sv
+  C:/Users/Spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/Lab06_.srcs/sources_1/new/sseg_decoder.sv
+  C:/Users/Spencer_stinson1/Documents/GitHub/Lab09/Lab_09/Lab_09.srcs/sources_1/new/top_lab9.sv
+  C:/Users/Spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.srcs/sources_1/new/calc.sv
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -111,8 +109,8 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/spencer_stinson1/Documents/GitHub/Lab10/basys3.xdc
-set_property used_in_implementation false [get_files C:/Users/spencer_stinson1/Documents/GitHub/Lab10/basys3.xdc]
+read_xdc C:/Users/Spencer_stinson1/Documents/GitHub/Lab10/basys3.xdc
+set_property used_in_implementation false [get_files C:/Users/Spencer_stinson1/Documents/GitHub/Lab10/basys3.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]

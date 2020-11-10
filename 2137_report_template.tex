@@ -60,30 +60,48 @@
 %=========== Body  ====================================
 \begin{document}
 
-\title{ELC 2137 Lab \10: 7-Segment Display with Time-Division Multiplexing}
+\title{ELC 2137 Lab 10: 7 Segment TDM}
 \author{Spencer Stinson}
 
 \maketitle
 
-
 \section*{Summary}
 
-Type the summary of your experiment and results here.  
-
+In this lab, we used our knowledge and code from previous labs to create a calculator using our board. This lab helped us to understand how to do conversions in verilog better with the show2c module, how to use the design specs, such as the timing of the light that we used in the Ncount, which we found the value to be 20 to get an accurate reading, and lastly it taught us how to combine these to get an accurate calculator as our final result. 
 \section*{Q\&A}
-\begin{itemize}
-	\item What are the three main "groups" of the RTL definition of sequential logic?
-	\item If instead of a counter, you wanted to make a shift register that oved the input bits from right to left (low to high). What would you put on the line $Q_next = ???$
-
-\end{itemize}
+There were no questions for this lab. 
 
 \section*{Results}
-two schematic drawings of sseg4_TDM and calc_lab10
 
+In this section, put your simulation waveforms, results tables, pictures of hardware, and any other required items.
+\begin{center}
+	\includegraphics[width=\textwidth]{test1}
+\end{center}
+\begin{center}
+	\includegraphics[width=\textwidth]{show2ctest.png}
+\end{center}
+\begin{figure}
+	\includegraphics[width=\textwidth]{posnum.png}
+	\caption{15 + 3 = 18 displayed on basys board}
+	\label{fig: ah}
+\end{figure}
+\begin{figure}
+	\includegraphics[width=\textwidth]{negnum.png}
+	\caption{1 - 7 = -6 displayed on basys board}
+	\label{fig: crap}
+\end{figure}
+\pagebreak
 
 \section*{Code}
-(5) totals, three codes, twoo test benches 
-Include all of the code you wrote or modified here.
+
+\Verilog[caption= Ncount module]{C:/Users/Spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.srcs/sources_1/new/Ncount.sv}
+\Verilog[caption= Show 2's compliment module]{C:/Users/Spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.srcs/sources_1/new/show2c.sv}
+\Verilog[caption=wrapper testing 
+ module]{C:/Users/Spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.srcs/sources_1/new/wrapper.sv}
+\Verilog[caption= calculator final module]{C:/Users/Spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.srcs/sources_1/new/calc.sv}
+
+\Verilog[caption= Ncount test bench module]{C:/Users/Spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.srcs/sim_1/new/Ncount_testbench.sv}
+\Verilog[caption= show2c test bench  module]{C:/Users/Spencer_stinson1/Documents/GitHub/Lab10/Lab_10/Lab_10.srcs/sim_1/new/show2c_testbench.sv}
 
 
 \end{document}
